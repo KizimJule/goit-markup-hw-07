@@ -1,4 +1,8 @@
-h1, h2, h3, p, ul {
+h1,
+h2,
+h3,
+p,
+ul {
   margin: 0;
   padding-left: 0;
 }
@@ -38,7 +42,7 @@ ul {
   overflow: hidden;
 }
 
-.headder__container, .nav, .contact__item, .contact__link, .feature-list__content, .work__desc, .clients__list, .clients__links, .footer-form__button, .project__dropdown, .modal__button, .checkbox__label {
+.headder__container, .nav, .contact__item, .contact__link, .feature-list__content, .work__desc, .social__links, .clients__list, .clients__links, .footer-form__button, .project__dropdown, .modal__button, .checkbox__label {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -347,15 +351,9 @@ ul {
 }
 
 .social__links {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   border-radius: 50%;
   width: 44px;
   height: 44px;
@@ -364,8 +362,7 @@ ul {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social__links:hover,
-.social__links:focus {
+.social__links:hover, .social__links:focus {
   fill: #ffffff;
   background-color: #2196f3;
 }
@@ -604,6 +601,7 @@ ul {
 
 .project__link {
   display: block;
+  text-decoration: none;
   -webkit-transition: -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -613,10 +611,6 @@ ul {
 .project__link:hover, .project__link:focus {
   -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
           box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-}
-
-.project__link {
-  text-decoration: none;
 }
 
 .project__img {

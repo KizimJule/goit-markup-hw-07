@@ -12,6 +12,7 @@
   margin-bottom: 20px;
   color: $primary-white-color;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
   &:hover,
   &:focus {
     color: $accent-color;
@@ -33,6 +34,7 @@
   text-decoration: none;
   color: $address-footer-color;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
   &:hover,
   &:focus {
     color: $accent-color;
@@ -69,20 +71,22 @@
   margin-right: 12px;
   width: 358px;
   height: 50px;
-  border: 1px solid $border-footter-mail;
+  @include border($border-footter-mail);
   background-color: $background-hero-footer;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
   &::placeholder {
     font-size: 16px;
     line-height: 1.25;
     letter-spacing: 0.03em;
     color: $address-footer-color;
   }
+
   &:hover,
   &:focus {
-    border: 1px solid $accent-color;
+    @include border($accent-color);
   }
 }
 .footer-form__button {
