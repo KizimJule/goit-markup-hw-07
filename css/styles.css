@@ -36,8 +36,7 @@ h2,
 h3,
 p,
 ul {
-  margin-top: 0;
-  margin-bottom: 0;
+  margin: 0;
   padding-left: 0;
 }
 .body {
@@ -134,8 +133,6 @@ ul {
   border-radius: 2px;
   background-color: var(--accent-color);
 }
-
-
 .contact {
   display: flex;
   margin-left: auto;
@@ -480,7 +477,7 @@ ul {
   margin-right: 12px;
   width: 358px;
   height: 50px;
-  background-color: var(--background-footter-mail);
+  /* background-color: var(--background-footter-mail); */
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;

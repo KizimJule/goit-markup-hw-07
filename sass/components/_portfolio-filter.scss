@@ -1,0 +1,33 @@
+.portfolio-nav {
+    @extend %padding-section;
+  }
+.filter__list {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+.filter__item + .filter__item {
+    margin-left: 8px;
+  }
+.filter__button {
+    border: none;
+    border-radius: 4px;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    cursor: pointer;
+    text-align: center;
+    padding: 6px 22px;
+    display: block;
+    background-color: $background-second-color;
+    color: $title-text-color;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+      &:hover,
+      &:focus {
+        background-color: $accent-color;
+        color: $primary-white-color;
+        box-shadow: $box-shadow-port;
+      }
+  }
