@@ -458,6 +458,7 @@ ul {
 }
 
 .footer__title {
+  display: block;
   margin-bottom: 20px;
   color: #ffffff;
   font-weight: 700;
@@ -487,7 +488,8 @@ ul {
   width: 358px;
   height: 50px;
   border: 1px solid rgba(255, 255, 255, 0.3);
-  background-color: #2f303a;
+  background-color: transparent;
+  outline: transparent;
   -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
           filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
@@ -738,6 +740,7 @@ ul {
 }
 
 .form__title {
+  display: block;
   margin-bottom: 12px;
   color: #212121;
   font-weight: 700;
